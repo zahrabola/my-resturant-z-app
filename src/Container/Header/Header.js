@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../../Constants/images";
+import SubHeading from "../../Components/SubHeading";
 import "./Header.css";
 
 const Header = () => {
@@ -7,6 +8,7 @@ const Header = () => {
   return (
     <div className="appheader appwrapper sectionpadding" id="home">
       <div className="wrapperinfo">
+        <SubHeading title="Chase the new flavour" />
         <h1 className="headerh1">The key to fine dining</h1>
       </div>
       <p className="textheader" style={{ margin: "2rem 0" }}>
