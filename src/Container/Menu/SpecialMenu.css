@@ -1,0 +1,77 @@
+.specialMenu{
+    flex-direction: column;
+    background-color: black;
+}
+.specialMenu-title{
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.specialMenu-menu{
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+    color: white;
+}
+.specialMenu-heading{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 600;
+     font-size: 40px;
+     line-height: 55px;
+     letter-spacing: 0.04rem;
+     color: white;
+}
+.specialMenu-wine, .specialMenu-cocktail{
+      flex: 1;
+    width: 100%;
+    flex-direction: column;
+}
+.specialMenu-img {
+   width: 410px;
+    margin: 0 2rem;  
+}
+.specialMenu-img img{
+        width: 100%;
+    height: auto;
+}
+.specialMenu-items{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    width: 100%;
+}
+
+
+@media screen and (min-width:2000px){
+    .specialMenu-img{
+        width: 650px;
+    }
+    .specialMenu-img img{
+        height: 920px;
+    }
+}
+
+@media screen and  (max-width: 1150px) {
+.specialMenu-menu{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+ .specialMenu-img{
+margin: 3rem 0;
+    }
+}
+
+
+@media screen and  (max-width: 650px) {
+  .specialMenu-img  {
+    width: 100%;
+  }
+    .specialMenu-heading{
+        font-size: 35px;
+        line-height: 48px
+    }
+}
