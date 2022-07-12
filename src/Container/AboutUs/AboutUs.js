@@ -15,9 +15,9 @@ return (
         <h1 className="AboutText"> About Us</h1>
         <img src={image.spoon} alt="aboutspoon" className="spoonimg" />
         <p className="text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
-          adipiscing ultrices vulputate posuere tristique. In sed odio nec
-          aliquet eu proin mauris et.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+          Quis pharetra adipiscing ultrices <br /> vulputate posuere tristique.
+          In sed odio nec aliquet eu proin mauris et.
         </p>
         <button type="button" className="custombtn">
           Know More
@@ -33,8 +33,9 @@ return (
         <img src={image.spoon} alt="aboutspoon" className="spoonimg" />
         <p className="text">
           Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat.
-          Risus placerat morbi volutpat habitasse interdum mi aliquam In sed
-          odio nec aliquet.
+          <br />
+          Risus placerat morbi volutpat habitasse <br />
+          interdum mi aliquam In sed odio nec aliquet.
         </p>
         <button type="button" className="custombtn">
           Know More

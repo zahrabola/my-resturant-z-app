@@ -6,6 +6,13 @@
   margin: 0;
   padding: 0;
 }
+.appbg{
+    background: url('./Assets/bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
 .flex__center {
   display: flex;
   justify-content: center;

@@ -9,36 +9,61 @@
 width: 391px;
 height: 415px;
 z-index: 0;
+margin: 10px;
 }
 .aboutuscontent{
     width: 100%;
     z-index: 2;
 }
-.aboutuscontent-about{
-    flex: 1;
-    flex-direction: column;
-    padding: 10px;
-        text-align: right;
-}
+
 .aboutuscontent-knife{
     margin:  32px 64px;
 }
 .aboutuscontent-knife img{
     height: 910px;
+    padding: 10px;
 }
-
+.aboutuscontent-about{
+    flex: 1;
+ flex-direction: column;
+    text-align: left;
+}
 .aboutuscontent-history{
-      flex: 1;
-     padding: 10px;
-       flex-direction: column;
-        text-align: left;
+        flex: 1;
+flex-direction: column;
+    text-align: right;
 }
 .aboutuscontent-about p,
 .aboutuscontent-history p {
-    margin: 4rem 3rem;
+    margin: 4rem 0;
 }
 .spoonimg{
     margin: 5px;
 }
 
-@media
+@media screen and (min-width: 2000px){
+.aboutuscontent-knife img{
+    height: 1110px;
+}
+.aboutuscontent-about p,
+.aboutuscontent-history p{
+    margin: 4rem 0 ;
+}
+}
+
+@media screen and (max-width: 900px) {
+    .aboutuscontent  {
+        flex-direction: column;
+    }
+
+    .aboutuscontent-knife {
+        margin: 4rem 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+  .aboutus0verlay img {
+        width: 80%;
+        height: 320px;
+    }
+}
