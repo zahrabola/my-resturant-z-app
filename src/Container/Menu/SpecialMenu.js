@@ -3,6 +3,7 @@ import "./SpecialMenu.css";
 import image from "../../Constants/images";
 import Data from "../../Constants/Data";
 import SubHeading from "../../Components/SubHeading/SubHeading";
+import MenuItem from "../../Components/MenuItem/MenuItem";
 
 const SpecialMenu = () => {
     return (
@@ -16,7 +17,12 @@ const SpecialMenu = () => {
             <p className="specialMenu-heading">Wine and Beer</p>
             <div className="specialMenu-items">
               {Data.wines.map((wine, index) => (
-                <p>{wine.title}</p>
+<MenuItem  key={wine.title + index} title={wine.title} price={wine.price} tags={wine.tags}/>
+
+
+
+
+                
               ))}
             </div>
           </div>
