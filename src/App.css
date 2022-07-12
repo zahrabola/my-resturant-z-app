@@ -81,7 +81,15 @@
 }
 
 
+.headtext {
 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #d4af37;
+  font-size: 64px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
 
 
 
