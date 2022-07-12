@@ -47,10 +47,7 @@
   margin-left: 2rem;
 
 }
-.wrapperimg-reverse {
- justify-content: flex-start;
-  margin-right: 2rem;
-}
+
 .wrapperimg img {
   width: 90%;
 }

@@ -1,0 +1,55 @@
+
+.chefcontent-quote {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.chefcontent-quote img {
+    width: 47px;
+    height: 40px;
+    margin: 0 1rem 1rem 0;
+}
+.chefsign img {
+    width: 250px;
+    margin-top: 3rem;
+}
+
+@media screen and (min-width: 2000px) {
+    .chefsign  {
+        width: 370px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .chefsign img {
+        width: 80%;
+    }
+}
+.wrapperimg img {
+  width: 80%;
+}
+
+
+.textheader {
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  color: white;
+
+}
+.headerh1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #d4af37;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 117px;
+    font-size: 80px;
+   
+}
+.wrapperimg img {
+  width: 80%;
+}

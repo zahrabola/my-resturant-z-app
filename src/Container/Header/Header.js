@@ -11,6 +11,7 @@ const Header = () => {
         <SubHeading title="Chase the new flavour" />
         <h1 className="headerh1">The key to fine dining</h1>
       </div>
+      
       <p className="textheader" style={{ margin: "2rem 0" }}>
         Lorem ipsum dolor sit amet,
         <br />
