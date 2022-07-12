@@ -11,16 +11,34 @@ const SpecialMenu = () => {
           <SubHeading title="Menu that fits your palatte" />
           <h1 className="headtext">Today's Specials</h1>
         </div>
-<div className="specialMenu-menu">
-    <div className="specialMenu-wine flex__center">
-        <p className="specialMenu-heading">Wine and Beer</p>
-        <div className="specialMenu-items">
-            {Data.wines.map((wine, index) => (
+        <div className="specialMenu-menu">
+          <div className="specialMenu-wine flex__center">
+            <p className="specialMenu-heading">Wine and Beer</p>
+            <div className="specialMenu-items">
+              {Data.wines.map((wine, index) => (
                 <p>{wine.title}</p>
-            ))}
+              ))}
+            </div>
+          </div>
+
+          <div className="specialMenu-img flex__center">
+<img src={image.menu} alt="menuimg"/>
+          </div>
+
+          <div className="specialMenu-cocktail flex__center">
+            <p className="specialMenu-heading">Cocktails</p>
+            <div className="specialMenu-items">
+{Data.cocktails.map((cocktail, index) => (
+    <p>{cocktail.title}</p>
+))}
+            </div>
+          </div>
         </div>
 
-    </div>
+<div style={{marginTop: 15 }}>
+          <button type="button" className="custombtn">
+       View More
+      </button>
 </div>
 
 
