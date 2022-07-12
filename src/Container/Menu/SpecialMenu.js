@@ -13,7 +13,13 @@ const SpecialMenu = () => {
         </div>
 <div className="specialMenu-menu">
     <div className="specialMenu-wine flex__center">
-        
+        <p className="specialMenu-heading">Wine and Beer</p>
+        <div className="specialMenu-items">
+            {Data.wines.map((wine, index) => (
+                <p>{wine.title}</p>
+            ))}
+        </div>
+
     </div>
 </div>
 
