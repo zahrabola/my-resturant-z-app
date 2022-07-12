@@ -1,0 +1,44 @@
+.aboutus{
+    position: relative;
+}
+.aboutus0verlay{
+    position: absolute;
+    inset: 0;
+}
+.aboutus0verlay img{
+width: 391px;
+height: 415px;
+z-index: 0;
+}
+.aboutuscontent{
+    width: 100%;
+    z-index: 2;
+}
+.aboutuscontent-about{
+    flex: 1;
+    flex-direction: column;
+    padding: 10px;
+        text-align: right;
+}
+.aboutuscontent-knife{
+    margin:  32px 64px;
+}
+.aboutuscontent-knife img{
+    height: 910px;
+}
+
+.aboutuscontent-history{
+      flex: 1;
+     padding: 10px;
+       flex-direction: column;
+        text-align: left;
+}
+.aboutuscontent-about p,
+.aboutuscontent-history p {
+    margin: 4rem 3rem;
+}
+.spoonimg{
+    margin: 5px;
+}
+
+@media
