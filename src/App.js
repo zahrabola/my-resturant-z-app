@@ -5,6 +5,7 @@ import AboutUs from './Container/AboutUs/AboutUs';
 import Header from './Container/Header/Header';
 import SpecialMenu from './Container/Menu/SpecialMenu';
 import Chef from "./Container/Chef/Chef";
+import Intro from './Container/Introduction/Intro';
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
   <AboutUs />
   <SpecialMenu />
   <Chef />
+  <Intro />
       <div>Zahra Olanrewaju</div>
     </div>
   );
