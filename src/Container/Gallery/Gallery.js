@@ -2,7 +2,8 @@ import React from "react";
 import image from "../../Constants/images";
 import {
   BsInstagram,
- 
+  BsArrowLeftShort,
+  BsArrowRightShort,
 } from "react-icons/bs";
 //import { Data } from "../../Constants";
 import SubHeading from "../../Components/SubHeading/SubHeading";
@@ -22,22 +23,22 @@ const Gallery = () => {
           </button>
         </div>
         <div className="galleryimg">
-          <div className="galleryimg-content">
-            image
-            <div className="galleryimg-card flex__center">
-              <img src={image} alt="galleryimage" />
-              <BsInstagram className="gallery__image-icon" />
-            </div>
+          <div className="galleryimg-container">
+            {[
+              image.gallery01,
+              image.gallery02,
+              image.gallery03,
+              image.gallery04,
+            ].map((images, index) => (
+              <div className="galleryimg-card flex__center">
+                <img src={images} alt="galleryimage" />
+                <BsInstagram className="gallery__image-icon" />
+              </div>
+            ))}
           </div>
           <div className="galleryimg-arrow">
-            <BsArrowLeftShort
-              className="Garrow-icon"
-              
-            />
-            <BsArrowRightShort
-              className="Garrow-icon"
-             
-            />
+            <BsArrowLeftShort className="Garrow-icon" />
+            <BsArrowRightShort className="Garrow-icon" />
           </div>
         </div>
       </div>
