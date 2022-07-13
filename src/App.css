@@ -83,7 +83,7 @@
 
 
 .headtext {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
   color: #d4af37;
   font-size: 64px;
   line-height: 83.2px;
@@ -98,6 +98,17 @@
   text-transform: capitalize;
   line-height: 28px;
   font-size: 16px;
+}
+.pstyle2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  line-height: 29.9px;
+  font-size: 23px;
+
 }
 
 .spoonimg {
