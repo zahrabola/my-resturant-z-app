@@ -3,3 +3,65 @@
     background: black;
     padding: 4rem 0 4rem 6rem;
 }
+.gallery-content{
+      flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    min-width: 500px;
+    padding-right: 2rem;
+}
+.gallery-content{
+     margin-top: 1rem;
+}
+.galleryimg{
+        flex: 1;
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    position: relative;
+}
+.galleryimg-container{
+      display: flex;
+    flex-direction: row;
+    width: max-content;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;  
+}
+.galleryimg-container::-webkit-scrollbar {
+    display: ;
+}
+.galleryimg-card{
+       position: relative;
+    min-width: 301px;
+    height: 447px;
+    margin-right: 2rem;
+}
+.galleryimg-card img{
+   width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    transition: .5s ease;
+}
+.galleryimg-arrow{
+       width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    position: absolute;
+    bottom: 5%;
+}
+.Garrow-icon {
+    color: #d4af37;
+    font-size: 2rem;
+    cursor: pointer;
+    background: black;
+    border-radius: 5px;
+}
+.Garrow-icon:hover{
+    color: white;
+}

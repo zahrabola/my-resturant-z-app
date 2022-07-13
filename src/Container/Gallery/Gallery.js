@@ -9,11 +9,29 @@ import {
 import SubHeading from "../../Components/SubHeading/SubHeading";
 import './Gallery.css';
 const Gallery = () => {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     return (
       <div className=" gallery flex__center">
         <div className="gallery-content">
           <SubHeading title="Instagram" />
           <h1 className="headtext">Photo Gallery</h1>
+          <BsInstagram className="Garrow-icon" />
           <p className="pstyle" style={{ color: "#AAAAAA", marginTop: "2rem" }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
             mattis ipsum turpis elit elit scelerisque egestas mu.
@@ -32,7 +50,6 @@ const Gallery = () => {
             ].map((images, index) => (
               <div className="galleryimg-card flex__center">
                 <img src={images} alt="galleryimage" />
-                <BsInstagram className="gallery__image-icon" />
               </div>
             ))}
           </div>
