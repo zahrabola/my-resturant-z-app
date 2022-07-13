@@ -31,7 +31,7 @@
     scrollbar-width: none;  
 }
 .galleryimg-container::-webkit-scrollbar {
-    display: ;
+    display:none;
 }
 .galleryimg-card{
        position: relative;
