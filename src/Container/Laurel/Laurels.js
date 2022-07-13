@@ -9,7 +9,12 @@ const Laurels = () => {
         <div className="wrapperinfo">
           <SubHeading title="Awards and recognition" />
           <h1 className="headtext">Our Laurels</h1>
+          <div className="laurelsawards">Award card</div>
         </div>
+
+        <div className="wrapperimg">
+            <img src={image.laurels} alt="laurelsimg"/>
+            </div>
       </div>
     );
 }

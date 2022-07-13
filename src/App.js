@@ -6,6 +6,7 @@ import Header from './Container/Header/Header';
 import SpecialMenu from './Container/Menu/SpecialMenu';
 import Chef from "./Container/Chef/Chef";
 import Intro from './Container/Introduction/Intro';
+import Laurels from './Container/Laurel/Laurels';
 function App() {
   return (
     <div className="App">
@@ -15,7 +16,7 @@ function App() {
   <SpecialMenu />
   <Chef />
   <Intro />
-  
+  <Laurels />
       <div>Zahra Olanrewaju</div>
     </div>
   );
