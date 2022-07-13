@@ -22,14 +22,14 @@ const Awardcard = ({ award: { imgUrl, title, subtitle } }) => {
 const Laurels = () => {
     return (
       <div className="appbg sectionpadding appwrapper" id="awards">
-        <div className="wrapperinfo">
+        <div className="wrapperinfo ">
           <SubHeading title="Awards and recognition" />
           <h1 className="headtext">Our Laurels</h1>
-          <div className="laurelsawards">
-            {Data.awards.map((award) => (
-              <Awardcard award={award} key={award.title} />
-            ))}
-          </div>
+        </div>
+        <div className="laurelsawards">
+          {Data.awards.map((award) => (
+            <Awardcard award={award} key={award.title} />
+          ))}
         </div>
 
         <div className="wrapperimg">
