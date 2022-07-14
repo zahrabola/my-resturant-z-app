@@ -23,7 +23,7 @@ function App() {
       <Gallery />
       <FindUs />
       <Footer />
-      <div className="pstyle">Zahra Olanrewaju</div>
+      
     </div>
   );
 }

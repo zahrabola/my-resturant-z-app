@@ -3,12 +3,13 @@ import FooterOverlay from "../../Components/Footer/FooterOverlay";
 import Newsletter from "../../Components/Footer/Newsletter";
 import image from "../../Constants/images";
 import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
+import "./Footer.css";
 
 
 
 const Footer =() => {
     return (
-      <div className="footer section__padding" id="Login ">
+      <div className="footer section__padding appbg" id="Login ">
         <FooterOverlay />
         <Newsletter />
         <div className="footerlink">
@@ -25,11 +26,8 @@ const Footer =() => {
               " The best way to find yourself is to lose yourself in the service
               of others."
             </p>
-            <img
-              src={image.spoon}
-              className="spoonimg"
-              style={{ marginTop: 15 }}
-            />
+            <img src={image.spoon} alt="aboutspoon" className="spoonimg" />
+
             <div className="footericon">
               <FiFacebook />
               <FiTwitter />
@@ -37,15 +35,16 @@ const Footer =() => {
             </div>
           </div>
 
-
-
-
-
-
-
-
-          
+          <div className="footerlink-work">
+            <h1 className="F-headtext">Working Hours </h1>
+            <p className="pstyle">Monday-Friday:</p>
+            <p className="pstyle">08:00 am - 12:00 am</p>
+            <p className="pstyle">Saturday-Sunday:</p>
+            <p className="pstyle">07:00 am - 11:00 pm</p>
+          </div>
         </div>
+
+        <div className="pstyle fcopyright">Zahra Olanrewaju</div>
       </div>
     );
 }
