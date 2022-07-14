@@ -8,6 +8,7 @@ import Chef from "./Container/Chef/Chef";
 import Intro from './Container/Introduction/Intro';
 import Laurels from './Container/Laurel/Laurels';
 import Gallery from './Container/Gallery/Gallery';
+import FindUs from './Container/FindUs/FindUs';
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
   <Intro />
   <Laurels />
   <Gallery />
+  <FindUs />
       <div>Zahra Olanrewaju</div>
     </div>
   );
