@@ -1,0 +1,60 @@
+.newsletter{
+    background-color: black;
+    border: 2px solid  #d4af37;
+      padding: 2rem 4rem;
+}
+.news-heading{
+    text-align: center;
+}
+.news-input {
+       flex-direction: row;
+    margin-top: 3rem;
+}
+.news-input input {
+    width: 620px;
+      border: 1px solid  #d4af37;
+      color: white;
+      background-color: black;
+       border-radius: 5px;
+    font-size: 1rem;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-right: 2rem;
+    padding: 0.75rem 1rem;
+    background: black;
+}
+.news-input button {
+    width: max-content;
+}
+
+
+@media screen and (min-width: 2000px) {
+    .news-input input {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 990px) {
+   .news-input {
+        flex-direction: column;
+        width: 100%;
+    }
+
+ .news-input input {
+        margin: 0 0 2rem 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+  .newsletter {
+        padding: 2rem 0;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 300px) {
+.news-heading h1 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+}
