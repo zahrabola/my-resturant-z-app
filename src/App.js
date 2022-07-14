@@ -14,16 +14,16 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-  <Header /> 
-  <AboutUs />
-  <SpecialMenu />
-  <Chef />
-  <Intro />
-  <Laurels />
-  <Gallery />
-  <FindUs />
-  <Footer />
-      <div>Zahra Olanrewaju</div>
+      <Header />
+      <AboutUs />
+      <SpecialMenu />
+      <Chef />
+      <Intro />
+      <Laurels />
+      <Gallery />
+      <FindUs />
+      <Footer />
+      <div className="pstyle">Zahra Olanrewaju</div>
     </div>
   );
 }
