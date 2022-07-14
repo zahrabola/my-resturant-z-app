@@ -9,6 +9,7 @@ import Intro from './Container/Introduction/Intro';
 import Laurels from './Container/Laurel/Laurels';
 import Gallery from './Container/Gallery/Gallery';
 import FindUs from './Container/FindUs/FindUs';
+import Footer from './Container/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,7 @@ function App() {
   <Laurels />
   <Gallery />
   <FindUs />
+  <Footer />
       <div>Zahra Olanrewaju</div>
     </div>
   );
