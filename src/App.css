@@ -59,6 +59,10 @@
   align-items: flex-start;
   
 }
+.wrappercontent{
+  margin: 10px;
+  padding: 12px;
+}
 .wrapper {
  display: flex;
   justify-content: space-between;
