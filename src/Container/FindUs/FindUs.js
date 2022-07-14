@@ -1,5 +1,5 @@
 import React from "react";
-//import image from "../../Constants/images";
+import image from "../../Constants/images";
 import SubHeading from "../../Components/SubHeading/SubHeading";
 
 const FindUs = () => {
@@ -31,8 +31,10 @@ const FindUs = () => {
            Visit Us
           </button>
         </div>
+<div className="wrapperimg">
+    <img src={image.findus} alt="findusimg"/>
+</div>
 
-        
       </div>
     );
 }
