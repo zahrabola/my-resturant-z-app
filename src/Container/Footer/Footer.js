@@ -9,7 +9,7 @@ import "./Footer.css";
 
 const Footer =() => {
     return (
-      <div className="footer section__padding appbg" id="Login ">
+      <div className="footer section__padding appbg" id="Login">
         <FooterOverlay />
         <Newsletter />
         <div className="footerlink">

@@ -5,7 +5,7 @@ import SubHeading from "../../Components/SubHeading/SubHeading";
 
 const Newsletter = () => {
     return (
-      <div className="newsletter">
+      <div className="newsletter" id="contact">
         <div className="news-heading">
           <SubHeading title="NewsLetter " />
           <h1 className="headtext">Subscribe To Our Newsletter</h1>
@@ -15,7 +15,7 @@ const Newsletter = () => {
         <div className="news-input flex__center">
           <input type="email" placeholder="Enter your email address" />
           <button type="button" className="custombtn">
-          Subscribe
+            Subscribe
           </button>
         </div>
       </div>
