@@ -16,7 +16,7 @@ const Chef = () => {
           <h1 className="headerh1">The key to fine dining</h1>
         </div>
        <div className="chefcontent-quote">
-              <img src={image.quote} atl="qouteimg" />
+              <img src={image.quote} alt="qouteimg" />
             </div>
         <p className="textheader" style={{ margin: "2rem 0" }}>
           Lorem ipsum dolor sit amet,

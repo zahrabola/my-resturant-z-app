@@ -25,7 +25,7 @@ import award05 from "../Assets/award05.png";
 import sign from "../Assets/sign.png";
 import quote from "../Assets/quote.png";
 
-export default {
+const doimage = {
   bg,
   chef,
   Z,
@@ -50,3 +50,5 @@ export default {
 
   dine,
 };
+
+export default doimage;
