@@ -33,7 +33,7 @@ const Navbar = () => {
           Log In / Registration
         </a>
         <div />
-        <a href="#\" className="text">
+        <a href="#" className="text">
           Book Table
         </a>
       </div>

@@ -33,7 +33,7 @@ return (
         <img src={image.spoon} alt="aboutspoon" className="spoonimg" />
         <p className="text">
           Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat.
-          <br />
+          <br/>
           Risus placerat morbi volutpat habitasse <br />
           interdum mi aliquam In sed odio nec aliquet.
         </p>
